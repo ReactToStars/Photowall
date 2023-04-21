@@ -83,6 +83,7 @@ html {
     margin-left: -2rem;
     margin-top: -2rem;
     max-width: none;
+    height: 300px;
    }
    .comment{
     width: 100%
@@ -193,4 +194,20 @@ html {
     align-items: center;
     justify-content: center;
     font-size: 28pt;
+   }
+
+   .figure a{
+    text-decoration: none;
+   }
+
+   figcaption p{
+    color:#7B8589;
+   }
+
+   figcaption p:hover{
+    color: blueviolet;
+   }
+
+   .warning{
+    color: yellow;
    }
